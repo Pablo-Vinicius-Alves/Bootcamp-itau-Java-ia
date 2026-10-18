@@ -15,5 +15,11 @@ public class Main {
         var visa = scanner.nextBoolean(); 
         var canDrive = age >= 18 && visa == true;
         System.out.printf("\nVocê pode dirigir? (%s)", canDrive);
+
+        System.out.println("Informe o primeiro número:");
+        var value1 = scanner.nextInt();
+        System.out.println("Informe o segundo número:");
+        var value2 = scanner.nextInt();
+        System.out.printf("%s + %s = %s\n", value1, value2, value1 + value2 );
     }
 }
