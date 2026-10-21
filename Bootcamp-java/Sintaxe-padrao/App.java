@@ -13,5 +13,7 @@ public class App {
         System.out.println("Sua idade:");
         int age = scanner.nextInt();
         System.out.printf("Olá %s, sua idade é %s anos", name, age);
+
+        scanner.close();
     }
 }
